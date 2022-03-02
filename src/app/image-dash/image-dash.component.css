@@ -1,0 +1,46 @@
+.mat-input-element {
+  padding: 5px;
+}
+
+.mat-button {
+  position: center;
+  display: block;
+  justify-content: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 2%
+}
+
+.content-left {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: auto;
+  padding-top: 2%;
+  padding-right: 2%;
+}
+
+.content-right {
+  display: inline-block;
+  vertical-align: center;
+  padding-top: 2%;
+  padding-left: 2%;
+}
+
+.img-name {
+  position: center;
+}
+
+.input-form {
+  width: 100%;
+  justify-content: center;
+}
+
+.input {
+  padding-right: 12px;
+}
