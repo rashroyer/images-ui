@@ -35,7 +35,8 @@ export class ImageDashComponent implements OnInit {
     this.imageService.getImage(this.images[0].link).subscribe(blob => {
       this.loadBlobImage(blob);
     }, error => {
-      
+      console.log(error);
+      alert("Could not load image");
     });
   }
 
